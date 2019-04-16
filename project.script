@@ -1,0 +1,29 @@
+echo *** Project Builder Script ***
+
+clear stack
+
+echo <<reading in perfect rules>>
+read regex < perfect.regex
+echo <<reading in perfect lexicon>>
+read lexc < perfect.lexc
+echo <<composing perfect transducer>>
+compose net
+echo <<defining perfect network>>
+define perfect
+
+echo <<reading in imperfect rules>>
+read regex < imperfect.regex
+echo <<reading in imperfect lexicon>>
+read lexc < imperfect.lexc
+echo <<composing imperfect transducer>>
+compose net
+echo <<defining imperfect network>>
+define imperfect
+
+echo <<union of networks>>
+read regex perfect|imperfect;
+echo <<saving network>>
+
+echo <<fst saved>>
+save stack project.fst;
+echo *** END ***

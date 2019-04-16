@@ -1,0 +1,176 @@
+Multichar_Symbols
+PastP+ +PastP
++Strong +Weak +Mixed ^GUESS
+
+Lexicon Root
+	Prefix;
+	
+Lexicon Prefix
+PastP+:ge	Perfect;
+
+Lexicon Perfect
+Strong;
+Weak;
+Mixed;
+Modal;
+	
+Lexicon Strong
+Str0;
+Str1;
+Str2;
+Str3;
+Str4;
+Str5;
+Str6;
+Str7;
+Str8;
+Str9;
+	
+Lexicon WSuffix
++PastP:t		#;
+
+Lexicon SSuffix
++PastP:en		#;
+
+Lexicon Str1
+blas+Strong:bla^1s	SSuffix;
+brat+Strong:bra^1t	SSuffix;
+halt+Strong:hal^1t	SSuffix;
+laSSuffix+Strong:la^1ss	SSuffix;
+rat+Strong:ra^1t	SSuffix;
+schlaf+Strong:schla^1f	SSuffix;
+
+Lexicon Str2
+grab+Strong:gra^2b		SSuffix;
+lad+Strong:la^2d		SSuffix;
+schlag+Strong:schla^2g	SSuffix;
+trag+Strong:tra^2g	SSuffix;
+wachs+Strong:wa^2chs	SSuffix;
+schlag+Strong:schla^2g	SSuffix;
+
+Lexicon Str3
+freSSuffix+Strong:fre^3ss	SSuffix;
+gescheh+Strong:gesche^3h	SSuffix;
+les+Strong:le^3s	SSuffix;
+mess+Strong:me^3ss	SSuffix;
+seh+Strong:se^3h	SSuffix;
+tret+Strong:tre^3t	SSuffix;
+vergess+Strong:verge^3ss	SSuffix;
+
+Lexicon Str4
+befehl+Strong:befe^4hl	SSuffix;
+brech+Strong:bre^4ch	SSuffix;
+empfehl+Strong:empfe^4hl	SSuffix;
+erschreck+Strong:erschre^4ck	SSuffix;
+gelt+Strong:ge^4lt	SSuffix;
+helf+Strong:he^4lf	SSuffix;
+sprech+Strong:spre^4ch	SSuffix;
+stech+Strong:ste^4ch	SSuffix;
+stehl+Strong:ste^4hl	SSuffix;
+sterb+Strong:ste^4rb	SSuffix;
+treff+Strong:tre^4ff	SSuffix;
+verberg+Strong:verbe^4rg	SSuffix;
+verderb+Strong:verde^4rb	SSuffix;
+werb+Strong:we^4rb	SSuffix;
+werf+Strong:we^4rf	SSuffix;
+
+Lexicon Str5
+gleich+Strong:glei^5ch	SSuffix;
+gleit+Strong:glei^5t	SSuffix;
+greif+Strong:grei^5f	SSuffix;
+kneif+Strong:knei^5f	SSuffix;
+pfeif+Strong:pfei^5f	SSuffix;
+reiss+Strong:rei^5ss	SSuffix;
+reit+Strong:rei^5t		SSuffix;
+scheiss+Strong:schei^5ss	SSuffix;
+schleich+Strong:schlei^5ch	SSuffix;
+shcleif+Strong:schlei^5f	SSuffix;
+schmeiss+Strong:schmei^5ss	SSuffix;
+shcreit+Strong:schrei^5t	SSuffix;
+streit+Strong:strei^5t	SSuffix;
+weich+Strong:wei^5ch	SSuffix;
+
+Lexicon Str6
+entschied+Strong:entschei^6d	SSuffix;
+leih+Strong:lei^6h	SSuffix;
+meid+Strong:mei^6d	SSuffix;
+preis+Strong:prei^6s	SSuffix;
+reib+Strong:rei^6b		SSuffix;
+schein+Strong:schei^6n	SSuffix;
+schreib+Strong:schrei^6b	SSuffix;
+schrei+Strong:schrei^6	SSuffix;
+schwei+Strong:schwei^6g	SSuffix;
+steig+Strong:stei^6g	SSuffix;
+treib+Strong:trei^6b	SSuffix;
+verzieh+Strong:verzei^6h	 SSuffix;
+weis+Strong:weis^6	SSuffix;
+
+Lexicon Str7
+begin+Strong:begi^7n	SSuffix;
+sachwimm+Strong:schwi^7mm	SSuffix;
+gewinn+Strong:gewi^7nn	SSuffix;
+
+Lexicon Str8
+bind+Strong:bi^8nd	SSuffix;
+dring+Strong:dri^8ng	SSuffix;
+find+Strong:fi^8nd	SSuffix;
+geling+Strong:geli^8ng	SSuffix;
+kling+Strong:kli^8ng	SSuffix;
+ring+Strong:ri^8ng		SSuffix;
+schling+Strong:schli^8ng	SSuffix;
+schwing+Strong:schwi^8ng	SSuffix;
+sink+Strong:si^8nk	SSuffix;
+spring+Strong:spri^8ng	SSuffix;
+stink+Strong:sti^8nk	SSuffix;
+trink+Strong:tri^8nk	SSuffix;
+verschwind+Strong:verschwi^8nd	SSuffix;
+zwing+Strong:zwi^8ng	SSuffix;
+
+Lexicon Str9
+bieg+Strong:bie^9g	SSuffix; 
+flieg+Strong:flie^9g	SSuffix;
+flieh+Strong:flie^9h	SSuffix;
+fliess+Strong:flie^9ss	SSuffix;
+frier+Strong:frie^9r	SSuffix;
+geniess+Strong:genie^9ss	SSuffix;
+giess+Strong:gie^9ss	SSuffix;
+kriech+Strong:krie^9ch	SSuffix;
+riech+Strong:rie^9ch	SSuffix;
+scheib+Strong:schie^9b	SSuffix;
+scheiss+Strong:schie^9ss	SSuffix;
+schliess+Strong:schlie^9ss	SSuffix;
+verlier+Strong:verlie^9r	SSuffix;
+wieg+Strong:wie^9g	SSuffix;
+
+Lexicon Str0
+bring+Strong:brach	WSuffix;
+denk+Strong:dach	WSuffix;
+ess+Strong:gegess	SSuffix;
+geh+Strong:gang		SSuffix;
+leid+Strong:litt	SSuffix;
+nehm+Strong:nomm	SSuffix;
+schneid+Strong:schnitt	SSuffix;
+sitz+Strong:sess	SSuffix;
+steh+Strong:stand	SSuffix;
+tun+Strong:tan		SSuffix;
+wiss+Strong:wuss	WSuffix;
+zieh+Strong:zog		SSuffix;
+sein+Strong:war		SSuffix;
+
+Lexicon Mixed
+brenn+Mixed:bre^mnn	WSuffix;
+kenn+Mixed:ke^mnn	WSuffix;
+nenn+Mixed:ne^mnn	WSuffix;
+renn+Mixed:re^mnn	WSuffix;
+
+Lexicon Modal
+dürf+Mixed:durf	WSuffix;
+könn+Mixed:konn	WSuffix;
+mög+Mixed:moch	WSuffix;
+müss+Mixed:muss	WSuffix;
+
+Lexicon Weak
+hofier+Weak:hofier	WSuffix;
+hab+Weak:hab	WSuffix;
+woll+Weak:woll	WSuffix;
+soll+Weak:soll	WSuffix;
